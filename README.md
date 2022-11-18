@@ -11,10 +11,11 @@ JayPay is a payroll software that makes life easier for employees, employers, an
 | ----------------- | ----------------------- | --------------- |
 | Mathias Insley    | minsley1@jhu.edu        | agelas          |
 | Andrew Suh        | wsuh1@jhu.edu           | andrewsuh98     |
+| Nishant Bundela   | nbundel1@jh.edu         | nishantbundela  |
 | Ying Zhang        | yingchuan.zhang@jhu.edu | yingblings      |
 | Shruti Hegde      | shegde3@jhu.edu         | shrutiihegde    |
 | Venkat Mukthineni | vmukthi1@jhu.edu        | venkat8900      |
-| Nishant Bundela   | nbundel1@jh.edu         | nishantbundela  |
+
 
 **Advisors** 
 
