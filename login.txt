@@ -1,0 +1,28 @@
+psql --host=ec2-44-192-245-97.compute-1.amazonaws.com --port=5432 --username=mzfdoluhrkjkmk --password --dbname=de1mpnontscg1j
+
+password: ab40046e079a475dc54cbde6ba5cbd38c78a59c06bb043bd585f47b4beaad2f8
+URI: 
+postgres://mzfdoluhrkjkmk:ab40046e079a475dc54cbde6ba5cbd38c78a59c06bb043bd585f47b4beaad2f8@ec2-44-192-245-97.compute-1.amazonaws.com:5432/de1mpnontscg1j
+
+
+psql --host=ec2-54-156-110-139.compute-1.amazonaws.com --port=5432 --username=fdijafvntnjznl --password --dbname=ddi6amulns6ssb
+
+password: bf3cf2255db2477ee20169add7af9ed5382810b6ef72c157ba7c518137db928d
+
+
+NEWWWWW!!
+
+Host
+ec2-54-156-110-139.compute-1.amazonaws.com
+Database
+ddi6amulns6ssb
+User
+fdijafvntnjznl
+Port
+5432
+Password
+bf3cf2255db2477ee20169add7af9ed5382810b6ef72c157ba7c518137db928d
+URI
+postgres://fdijafvntnjznl:bf3cf2255db2477ee20169add7af9ed5382810b6ef72c157ba7c518137db928d@ec2-54-156-110-139.compute-1.amazonaws.com:5432/ddi6amulns6ssb
+Heroku CLI
+heroku pg:psql postgresql-reticulated-13046 --app jaypay-lego-api

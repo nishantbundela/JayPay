@@ -1,0 +1,84 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model admin {
+  jhed                         String      @id @db.VarChar(20)
+  first_name                   String?     @db.VarChar(50)
+  last_name                    String?     @db.VarChar(50)
+  department                   String?     @db.VarChar(50)
+  department_adminTodepartment department? @relation(fields: [department], references: [title], onUpdate: NoAction)
+  job                          job[]
+}
+
+model department {
+  title    String     @id @db.VarChar(50)
+  admin    admin[]
+  employee employee[]
+  employer employer[]
+  job      job[]
+}
+
+model employee {
+  jhed                            String      @id @db.VarChar(20)
+  first_name                      String      @db.VarChar(50)
+  last_name                       String      @db.VarChar(50)
+  department                      String?     @db.VarChar(50)
+  department_departmentToemployee department? @relation(fields: [department], references: [title], onUpdate: NoAction)
+  jobs                            job[]
+  timesheets                      timesheet[]
+}
+
+model employer {
+  jhed                            String      @id @db.VarChar(20)
+  first_name                      String      @db.VarChar(50)
+  last_name                       String      @db.VarChar(50)
+  job_title                       String?     @db.VarChar(50)
+  department                      String?     @db.VarChar(50)
+  department_departmentToemployer department? @relation(fields: [department], references: [title], onUpdate: NoAction)
+  job                             job[]
+}
+
+model job {
+  id                         String      @id @db.VarChar(20)
+  title                      String      @db.VarChar(255)
+  wage                       Decimal     @db.Decimal
+  hour_limit                 Decimal?    @db.Decimal
+  department                 String      @db.VarChar(50)
+  active                     Boolean?
+  grant_id                   String?     @db.VarChar(255)
+  jhed                       String?     @db.VarChar(20)
+  ejhed                      String      @db.VarChar(20)
+  ajhed                      String      @db.VarChar(20)
+  admin                      admin       @relation(fields: [ajhed], references: [jhed], onDelete: SetNull, onUpdate: NoAction)
+  department_departmentTojob department  @relation(fields: [department], references: [title], onDelete: Cascade, onUpdate: NoAction)
+  employer                   employer    @relation(fields: [ejhed], references: [jhed], onDelete: SetNull, onUpdate: NoAction)
+  employee                   employee?   @relation(fields: [jhed], references: [jhed], onUpdate: NoAction)
+  timesheet                  timesheet[]
+}
+
+model timesheet {
+  job_id      String    @db.VarChar(20)
+  jhed        String    @db.VarChar(20)
+  date        DateTime  @db.Date
+  start_hours DateTime? @db.Timestamp(6)
+  end_hours   DateTime? @db.Timestamp(6)
+  total_hours Decimal?   @db.Decimal(4, 2)
+  approved    Boolean?
+  employee    employee  @relation(fields: [jhed], references: [jhed], onDelete: Cascade, onUpdate: NoAction)
+  job         job       @relation(fields: [job_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@id([job_id, jhed, date], map: "pk_jobid_jhed_date")
+}
+
+model period {
+  id         Int      @id @default(autoincrement())
+  start_date DateTime @db.Date
+  end_date   DateTime @db.Date
+}

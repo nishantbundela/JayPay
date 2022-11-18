@@ -1,0 +1,5 @@
+id,title,wage,hour_limit,department,active,grant_id,jhed,ejhed,ajhed
+12345,OOSE CA,20,52,Computer Science,TRUE,,hkenny22,mmellor30,sstone32
+12346,Algo TA,19,62,Computer Science,FALSE,,ariggs37,khamer75,sstone32
+12347,Robotics CA,18,52,Electrical and Computer Engineering,TRUE,98765,edillard93,fthornton65,eturnbull95
+98765,OOSE TA,20,52,Computer Science,FALSE,,,mmellor30,sstone32

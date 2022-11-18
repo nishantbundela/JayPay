@@ -1,0 +1,258 @@
+[33mcommit 268a80950a2067e355515155f6aacb7298c52eb4[m[33m ([m[1;36mHEAD -> [m[1;32mjhedlink[m[33m)[m
+Author: nishantbundela <nishantbundela@gmail.com>
+Date:   Tue Apr 26 19:40:45 2022 -0400
+
+    jhedlink experiments
+
+[33mcommit 38d724a1dc63f58e2893225d46a76da7b02964fc[m
+Author: nishantbundela <nishantbundela@gmail.com>
+Date:   Tue Apr 26 17:16:42 2022 -0400
+
+    Approve button also send emails
+
+[33mcommit 033a84c9242c6c36434e70778b025cec16a8541e[m[33m ([m[1;32mmaster[m[33m, [m[1;32mjhedlink2[m[33m, [m[1;32mapprovemail[m[33m)[m
+Merge: 410eff9 6775cc9
+Author: venkat8900 <41241851+venkat8900@users.noreply.github.com>
+Date:   Sun Apr 24 16:19:08 2022 -0400
+
+    Merge pull request #154 from cs421sp22-homework/iter04
+    
+    Iter04 merge
+
+[33mcommit 6775cc986af92f66d60852e67db1c5991a4ae99e[m
+Merge: 4f44a02 6e6d171
+Author: venkat8900 <41241851+venkat8900@users.noreply.github.com>
+Date:   Sat Apr 23 22:28:20 2022 -0400
+
+    Merge pull request #153 from cs421sp22-homework/jhedlink
+    
+    Jhedlink
+
+[33mcommit 6e6d171e58c107e41d279636b6a4c6e95116e892[m
+Author: nishantbundela <nishantbundela@gmail.com>
+Date:   Sat Apr 23 19:59:10 2022 -0400
+
+    changes to data variable
+
+[33mcommit bcc912b143319dc8e99b3c7054c5246adb5c53f8[m
+Author: nishantbundela <nishantbundela@gmail.com>
+Date:   Sat Apr 23 19:42:24 2022 -0400
+
+    bug fixes
+
+[33mcommit 2b924bab8f1f24c1f07652dc218155ddadebaac7[m
+Author: nishantbundela <nishantbundela@gmail.com>
+Date:   Sat Apr 23 19:38:32 2022 -0400
+
+    put email notification function in place
+
+[33mcommit 3406366cdcc261993a0ea3796dface6e5ef4d03e[m
+Merge: 024179e 4f44a02
+Author: nishantbundela <nishantbundela@gmail.com>
+Date:   Sat Apr 23 18:13:13 2022 -0400
+
+    Merge branch 'iter04' of https://github.com/cs421sp22-homework/project-team-14-lego into jhedlink
+
+[33mcommit 4f44a026a602f6c4e94e28040a18704fba6a586f[m
+Author: Mathias <mathiaswi177@gmail.com>
+Date:   Sat Apr 23 18:11:04 2022 -0400
+
+    Cleared out some warnings
+
+[33mcommit 024179e741059d80fb9e5458746dfcc5d1b71e79[m
+Author: nishantbundela <nishantbundela@gmail.com>
+Date:   Sat Apr 23 18:04:03 2022 -0400
+
+    package.json merge fix
+
+[33mcommit 267d5fb672627890c8033315e33354e98f61ec61[m
+Author: Venkat Mukthineni <venkatmukthineni2000@gmail.com>
+Date:   Sat Apr 23 17:45:53 2022 -0400
+
+    Added old timesheets
+
+[33mcommit 5a8725d155ba104ee1aa3411cfbd0c0563eb74ef[m
+Merge: cbfbfbc 53dd974
+Author: nishantbundela <nishantbundela@gmail.com>
+Date:   Sat Apr 23 17:43:35 2022 -0400
+
+    merge fix
+
+[33mcommit cbfbfbccfd0779c39da87b6f509cb15330680c54[m
+Author: nishantbundela <nishantbundela@gmail.com>
+Date:   Sat Apr 23 17:42:41 2022 -0400
+
+    bug fixes
+
+[33mcommit 53dd974ab6df8b997aee785a43048dbb146ebb4f[m
+Merge: c1020b1 b86585e
+Author: venkat8900 <41241851+venkat8900@users.noreply.github.com>
+Date:   Sat Apr 23 17:28:40 2022 -0400
+
+    Merge pull request #152 from cs421sp22-homework/toggleApproval
+    
+    Modified Approve button so it toggles instead of disables itself
+
+[33mcommit b86585e936f67e916c758e00bb82fdc204e96551[m
+Author: Mathias <mathiaswi177@gmail.com>
+Date:   Sat Apr 23 17:22:32 2022 -0400
+
+    Modified Approve button so it toggles instead of disables itself
+
+[33mcommit c1020b109ea0eac245fadebbc6d35b0e5e71c354[m
+Author: Mathias <mathiaswi177@gmail.com>
+Date:   Fri Apr 22 20:51:15 2022 -0400
+
+    hotfixes to get notifications to work
+
+[33mcommit da24873d4c2552a17d7328a8cd1a9f15fa002e60[m
+Merge: 390d138 3a5b1a2
+Author: nishantbundela <nishantbundela@gmail.com>
+Date:   Fri Apr 22 18:02:04 2022 -0400
+
+    merge fixes
+
+[33mcommit 390d138188af4041c3c5c72eeaf78e6e1b7383fc[m
+Author: nishantbundela <nishantbundela@gmail.com>
+Date:   Fri Apr 22 17:54:23 2022 -0400
+
+    removed employer page from admin view
+
+[33mcommit 3a5b1a28dd8c963f62992f94031f4ccd56343b72[m
+Merge: 2b2e786 1c386a4
+Author: Mathias Insley <55096933+agelas@users.noreply.github.com>
+Date:   Fri Apr 22 14:33:19 2022 -0700
+
+    Merge pull request #151 from cs421sp22-homework/notiffix
+    
+    test commit
+
+[33mcommit 1c386a4a1189446d2aee0c7f5e9ab79a524b24b0[m
+Author: Ying Zhang <Ying@yings-mac.acasmart.jh.edu>
+Date:   Fri Apr 22 17:32:02 2022 -0400
+
+    test commit
+
+[33mcommit 2b2e78697af6ea2750b7896c15a01d317bb23dc9[m
+Author: Andrew Suh <andrewsuh98@gmail.com>
+Date:   Fri Apr 22 17:20:13 2022 -0400
+
+    fix unterminated comment error
+
+[33mcommit 74273463d1db2f644ea6bc12afa0f942a4929515[m
+Merge: a2110e7 ef8ab81
+Author: Mathias Insley <55096933+agelas@users.noreply.github.com>
+Date:   Fri Apr 22 14:12:52 2022 -0700
+
+    Merge pull request #145 from cs421sp22-homework/employee-notifpage
+    
+    Employee notifpage
+
+[33mcommit ef8ab81d4afae08afb99143deb03ff8787bece79[m
+Merge: bd2ba09 a2110e7
+Author: Mathias Insley <55096933+agelas@users.noreply.github.com>
+Date:   Fri Apr 22 14:12:10 2022 -0700
+
+    Merge branch 'iter04' into employee-notifpage
+
+[33mcommit a2110e78aa08547401f3db0e8c32dbfe029722bb[m
+Merge: bd5d8bf 63e2cbd
+Author: Mathias Insley <55096933+agelas@users.noreply.github.com>
+Date:   Fri Apr 22 14:07:04 2022 -0700
+
+    Merge pull request #150 from cs421sp22-homework/revert-146-jhedlink
+    
+    Revert "Jhedlink"
+
+[33mcommit 63e2cbdf715f10aaeac8b70310940d1d988a169f[m
+Author: Mathias Insley <55096933+agelas@users.noreply.github.com>
+Date:   Fri Apr 22 17:06:51 2022 -0400
+
+    Revert "Jhedlink"
+
+[33mcommit bd5d8bf5c3a6c333fe13bdec7d32f7336e88bbef[m
+Merge: 3c58945 b6f2f57
+Author: Mathias Insley <55096933+agelas@users.noreply.github.com>
+Date:   Fri Apr 22 13:55:49 2022 -0700
+
+    Merge pull request #146 from cs421sp22-homework/jhedlink
+    
+    Jhedlink
+
+[33mcommit b6f2f571dea82eebc35d23f24b8db25196906039[m
+Merge: 4d0fbac 3c58945
+Author: Mathias Insley <55096933+agelas@users.noreply.github.com>
+Date:   Fri Apr 22 13:54:25 2022 -0700
+
+    Merge branch 'iter04' into jhedlink
+
+[33mcommit 3c58945e39a74678caf8afcf10840aed71765d34[m
+Merge: a2075aa 51939f0
+Author: Mathias <mathiaswi177@gmail.com>
+Date:   Fri Apr 22 11:46:13 2022 -0400
+
+    Merge branch 'iter04-state' into iter04
+
+[33mcommit 51939f09bcbb23788981870e31d4efeb5a19be12[m
+Merge: 744ad28 a2075aa
+Author: Mathias <mathiaswi177@gmail.com>
+Date:   Fri Apr 22 11:45:18 2022 -0400
+
+    Fixed all merge conflicts and some warnings
+
+[33mcommit 744ad2870fe6e47c8eaa1250dd7046940d06e685[m
+Author: Mathias <mathiaswi177@gmail.com>
+Date:   Fri Apr 22 02:46:21 2022 -0400
+
+    Made names match and prop drilled so employer component tree rerenders
+
+[33mcommit 9fe7a3f5da3b0a874de775604e1aadae22c124de[m
+Author: Mathias <mathiaswi177@gmail.com>
+Date:   Fri Apr 22 02:44:36 2022 -0400
+
+    Commented out this file because too many errors
+
+[33mcommit 4ba84cf96fc97b1133d6f8fb21aae4ea2cc7844b[m
+Author: Mathias <mathiaswi177@gmail.com>
+Date:   Fri Apr 22 02:43:21 2022 -0400
+
+    Prop drilled so component tree rerenders when new job is added
+
+[33mcommit 4d19fdf4c15addc2df05575387752e0fdc68f666[m
+Author: Mathias <mathiaswi177@gmail.com>
+Date:   Fri Apr 22 02:42:49 2022 -0400
+
+    Changed AddJobsFAB to accept state and state handler as props
+
+[33mcommit 5c771210bb224cfa3b3f82bb694e59742a7e0845[m
+Author: Mathias <mathiaswi177@gmail.com>
+Date:   Fri Apr 22 02:42:01 2022 -0400
+
+    Fixed some small equality eval errors that were throwing warnings
+
+[33mcommit a2075aa27770ca05b7630d014df6f282f5016f3d[m
+Merge: a4cbc3d fd30548
+Author: Wooseok Andrew Suh <40379595+andrewsuh98@users.noreply.github.com>
+Date:   Thu Apr 21 20:35:39 2022 -0400
+
+    Merge pull request #147 from cs421sp22-homework/iter04-filter-data
+    
+    filtering data for each user working
+
+[33mcommit fd3054825c172d2e0bfaf0f998c5f2189e9dbb17[m
+Author: Andrew Suh <andrewsuh98@gmail.com>
+Date:   Thu Apr 21 20:31:26 2022 -0400
+
+    employer's people view filters data
+
+[33mcommit 797e82ee382a20a61d27f949e785c8f78ce2bf0a[m
+Author: Andrew Suh <andrewsuh98@gmail.com>
+Date:   Thu Apr 21 20:16:36 2022 -0400
+
+    employer's jobs view filters data
+
+[33mcommit 00fab8f178ae5c973701760389d6fd219328ee46[m
+Author: Andrew Suh <andrewsuh98@gmail.com>
+Date:   Thu Apr 21 20:11:46 2022 -0400
+
+    admin's people table filters data and also retrieves employe

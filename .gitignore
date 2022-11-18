@@ -1,0 +1,37 @@
+.DS_Store
+.vscode/*
+.idea/*
+.gradle/*
+code/backend/node_modules/*
+code/frontend/node_modules/*
+code/backend/package-lock.json
+code/backend/.env
+code/frontend/.env
+code/frontend/package-lock.json
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+code/frontend/node_modules
+code/frontend/.pnp
+code/frontend/.pnp.js
+
+# testing
+code/frontend/coverage
+
+# production
+code/frontend/build
+
+# misc
+code/frontend/.DS_Store
+code/frontend/.env.local
+code/frontend/.env.development.local
+code/frontend/.env.test.local
+code/frontend/.env.production.local
+
+code/frontend/npm-debug.log*
+code/frontend/yarn-debug.log*
+code/frontend/yarn-error.log*
+
+code/backend/certs/*
+node_modules

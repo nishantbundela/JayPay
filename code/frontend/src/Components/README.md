@@ -1,0 +1,2 @@
+## Components
+This folder contains React functional components that contain interactive elements and/or components that make API calls. We try to adhere to the Single Responsibility design principle as much as possible.

@@ -1,0 +1,22 @@
+{
+  "name": "admintables",
+  "version": "1.0.0",
+  "description": "JayPay is a payroll software that makes life easier for employees, employers, and HR. With JayPay, there’s no need to worry about delayed payments, forgotten weekly hours, or using multiple platforms for verification. Our intuitive system provides you with an all-in-one platform to manage the entire employment ecosystem of your department.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs421sp22-homework/project-team-14-lego.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cs421sp22-homework/project-team-14-lego/issues"
+  },
+  "homepage": "https://github.com/cs421sp22-homework/project-team-14-lego#readme"
+}
